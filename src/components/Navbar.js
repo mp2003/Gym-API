@@ -33,7 +33,7 @@ const Navbar = () => {
         </Link>
         <ScrollLink
           to="exercises"
-          smooth={true}
+          smooth
           duration={500}
           style={{ textDecoration: 'none', color: '#3A1212', cursor: 'pointer' }}
           onClick={scrollToExercises}
